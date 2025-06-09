@@ -6,6 +6,7 @@ from .EmbFunctions import *
 from .EmbMatrix import EmbMatrix
 from .EmbPattern import EmbPattern
 from .EmbThread import EmbThread
+from .PngWriter import write as PngWriter_write # Alias to avoid name clash if PngWriter class is added later
 from .EmbCompress import compress, expand
 import pyembroidery.GenericWriter as GenericWriter
 
